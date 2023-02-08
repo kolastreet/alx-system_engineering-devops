@@ -1,5 +1,6 @@
 #!/bin/bash
 chmod u+x *
 git add .
-git commit -m 'auto bash '
+read -p "Enter your commit: " data
+git commit -m '$data '
 git push
